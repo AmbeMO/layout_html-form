@@ -1,31 +1,21 @@
-label {
+.label {
   display: block;
   margin-bottom: 10px;
 }
 
-label:last-child {
+.label:last-child {
   margin-bottom: 0;
 }
 
 .radio-inline {
-  display: inline;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 .radio-block {
   margin-bottom: 10px;
 }
 
-fieldset {
+.fieldset {
   margin-bottom: 20px;
-}
-
-.content {
-  font-size: 14px;
-  display: inline;
-  border: 1px solid gray;
-  max-width: 40px;
-}
-
-.label-content {
-  /*display: inline;*/
 }
